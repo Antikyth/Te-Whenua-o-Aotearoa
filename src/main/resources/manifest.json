@@ -1,14 +1,15 @@
 {
-    "Group": "Example",
-    "Name": "ExamplePlugin",
-    "Version": "0.0.2",
-    "Description": "An example plugin for HyTale!",
+    "Group": "Antikyth",
+    "Name": "Te_Whenua_o_Aotearoa",
+    "Version": "0.1.0",
+    "Description": "A Hytale plugin aiming to create a zone representing native Aotearoa New Zealand.",
     "Authors": [
         {
-            "Name": "It's you!"
+            "Name": "Antikyth",
+            "Url": "https://github.com/Antikyth"
         }
     ],
-    "Website": "example.org",
+    "Website": "https://github.com/Antikyth/Te-Whenua-o-Aotearoa",
     "ServerVersion": "*",
     "Dependencies": {
         
@@ -17,6 +18,6 @@
         
     },
     "DisabledByDefault": false,
-    "Main": "org.example.plugin.ExamplePlugin",
+    "Main": "io.github.antikyth.te_whenua_o_aotearoa.TeWhenua",
     "IncludesAssetPack": true
 }
