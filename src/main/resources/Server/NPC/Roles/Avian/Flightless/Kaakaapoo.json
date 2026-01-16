@@ -1,0 +1,30 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Animal_Neutral",
+  "Modify": {
+    "Appearance": "Kaakaapoo",
+    "FlockArray": [],
+    "AttitudeGroup": "Prey",
+    "DropList": "Drop_Kaakaapoo",
+    "LovedItems": [],
+    "MaxHealth": 38,
+    "WanderRadius": 12,
+    "AlertedActionRange": 8,
+    "ChanceToTurnFriendly": 30,
+    "WeightGreet": 20,
+    "WeightFollowItem": 20,
+    "WeightFollow": 20,
+    "WeightIgnore": 20,
+    "IsMemory": true,
+    "MemoriesCategory": "Avian",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Kaakaapoo.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}
