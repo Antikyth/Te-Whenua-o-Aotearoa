@@ -1,0 +1,34 @@
+{
+  "Model": "NPC/Wildlife/Kaakaapoo/Models/Model.blockymodel",
+  "Texture": "NPC/Wildlife/Kaakaapoo/Models/Texture.png",
+  "EyeHeight": 1.8,
+  "CrouchOffset": -0.5,
+  "HitBox": {
+    "Max": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    }
+  },
+  "Camera": {
+    "Pitch": {
+      "AngleRange": {
+        "Max": 45,
+        "Min": -30
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    },
+    "Yaw": {
+      "AngleRange": {
+        "Max": 45,
+        "Min": -45
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    }
+  },
+  "AnimationSets": {}
+}
