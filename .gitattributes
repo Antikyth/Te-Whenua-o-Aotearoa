@@ -1,0 +1,3 @@
+# Exclude Blockbench and Krita project files from diffs.
+*.bbmodel -diff
+*.kra -diff -text

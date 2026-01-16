@@ -33,6 +33,20 @@ else if (!file(project.findProperty('hytaleHome')).exists()) {
     throw new GradleException("Failed to find Hytale at the expected location. Please make sure you have installed the game. The expected location can be changed using the hytale_home property. Currently looking in ${project.findProperty('hytaleHome')}")
 }
 
+sourceSets {
+    main {
+        resources {
+            // Exclude Blockbench and Krita project files.
+            exclude "*.bbmodel"
+            exclude "*.kra"
+
+            // Exclude backup files
+            exclude "*~"
+            exclude "*.bak"
+        }
+    }
+}
+
 java {
     toolchain.languageVersion = JavaLanguageVersion.of(java_version)
     withSourcesJar()
