@@ -34,5 +34,23 @@
       ]
     }
   },
-  "AnimationSets": {}
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Wildlife/Kaakaapoo/Animations/Default/Idle.blockyanim",
+          "Looping": true
+        }
+      ]
+    },
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Wildlife/Kaakaapoo/Animations/Default/Walk.blockyanim",
+          "Looping": true,
+          "BlendingDuration": 0.4
+        }
+      ]
+    }
+  }
 }

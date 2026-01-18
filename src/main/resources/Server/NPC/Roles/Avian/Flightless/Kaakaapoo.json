@@ -8,6 +8,7 @@
     "DropList": "Drop_Kaakaapoo",
     "LovedItems": [],
     "MaxHealth": 38,
+    "MaxSpeed": 6,
     "WanderRadius": 12,
     "AlertedActionRange": 8,
     "ChanceToTurnFriendly": 30,
