@@ -61,6 +61,7 @@ javadoc {
 repositories {
     mavenCentral()
 
+    // Hytale Maven repository - set release or pre-release in gradle.properties.
     maven {
         name = "hytale"
         url = uri("https://maven.hytale.com/$patchline")
