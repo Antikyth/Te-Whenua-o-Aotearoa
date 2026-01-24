@@ -24,7 +24,7 @@
   },
   "Parameters": {
     "NameTranslationKey": {
-      "Value": "server.npcRoles.Kaakaapoo.name",
+      "Value": "te_whenua_o_aotearoa.npcRoles.Kaakaapoo.name",
       "Description": "Translation key for NPC name display"
     }
   }

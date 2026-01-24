@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Plant_Mamaku_Leaves.name"
+    "Name": "te_whenua_o_aotearoa.items.Plant_Mamaku_Leaves.name"
   },
   "Icon": "Icons/ItemsGenerated/Plant_Fern_Jungle.png",
   "Parent": "Plant_Fern",

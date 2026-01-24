@@ -1,6 +1,6 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Wood_Mamaku_Trunk.name"
+    "Name": "te_whenua_o_aotearoa.items.Wood_Mamaku_Trunk.name"
   },
   "Parent": "Wood_Oak_Branch_Long",
   "Icon": "Icons/ItemsGenerated/Wood_Palm_Branch_Long.png",
