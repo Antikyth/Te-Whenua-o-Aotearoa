@@ -1,7 +1,7 @@
 {
     "Group": "Antikyth",
     "Name": "Te_Whenua_o_Aotearoa",
-    "Version": "0.1.0",
+    "Version": "$version",
     "Description": "A Hytale plugin aiming to create a zone representing native Aotearoa New Zealand.",
     "Authors": [
         {
@@ -19,5 +19,5 @@
     },
     "DisabledByDefault": false,
     "Main": "io.github.antikyth.te_whenua_o_aotearoa.TeWhenua",
-    "IncludesAssetPack": true
+    "IncludesAssetPack": $includes_pack
 }
