@@ -37,12 +37,12 @@ sourceSets {
     main {
         resources {
             // Exclude Blockbench and Krita project files.
-            exclude "*.bbmodel"
-            exclude "*.kra"
+            exclude "**/*.bbmodel"
+            exclude "**/*.kra"
 
             // Exclude backup files
-            exclude "*~"
-            exclude "*.bak"
+            exclude "**/*~"
+            exclude "**/*.bak"
         }
     }
 }
