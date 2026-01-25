@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.gradle.plugin.idea-ext' version '1.3'
 }
 
+import groovy.xml.XmlSlurper
 import org.gradle.internal.os.OperatingSystem
 
 ext {
@@ -82,6 +83,27 @@ if (!serverRunDir.exists()) {
 processResources {
     filesMatching('**/manifest.json') {
         expand project.properties
+    }
+}
+
+tasks.register('updateHytaleVersion') {
+    description = 'Update the version of Hytale defined in gradle.properties to the latest available in this patchline.'
+
+    doLast {
+        // Get the Hytale maven manifest file for the current patchline.
+        def manifestUrl = "https://maven.hytale.com/$patchline/com/hypixel/hytale/Server/maven-metadata.xml"
+        def manifestXml = new XmlSlurper().parse(manifestUrl)
+
+        def latest_version = manifestXml.versioning.latest
+
+        // Replace the `hytale_version` in gradle.properties.
+        ant.propertyfile(file: GRADLE_PROPERTIES) {
+            entry(key: 'hytale_version', value: latest_version)
+        }
+        // Remove the automatically-added comment with the date and time - it just complicates the diff.
+        ant.replaceregexp(file: GRADLE_PROPERTIES, match: "^#.+${System.lineSeparator()}", replace: "")
+
+        println "Changed hytale_version to $latest_version"
     }
 }
 
