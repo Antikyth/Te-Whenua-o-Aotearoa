@@ -119,6 +119,8 @@ tasks.register('updateHytaleDownloader') {
             // TODO: authenticate here, rather than specifically when updating the server? maybe authentication should
             //       be a separate task which can be run both here and when updating the server if no credentials file
             //       is found
+        } else {
+            println 'Hytale Downloader is already installed; skipping installation.'
         }
     }
 }
@@ -147,8 +149,7 @@ abstract class UpdateHytaleServerTask extends DefaultTask {
     void run() {
         def dir = hytaleDownloaderDir.asFile.get()
         def run_dir = runDir.asFile.get()
-
-        project.mkdir "$dir/versions"
+        def properties_file = hytalePropertiesFile.asFile.get()
 
         def os = this.operatingSystem
         // Executable location based on OS
@@ -159,35 +160,69 @@ abstract class UpdateHytaleServerTask extends DefaultTask {
             exe = "$dir/hytale-downloader-linux-amd64"
         }
 
-        // TODO: don't run if already latest (requires checking game version first).
-
-        // Download Hytale
+        // TODO: authenticate Hytale Downloader with a task
+        println 'Provoking authentication by using Hytale Downloader to print current Hytale version...'
         execOps.exec {
-            workingDir "$dir"
             executable exe
-            args '-patchline', patchline.get(), '-download-path', "latest.zip"
-
-            standardInput = System.in
-            standardOutput = System.out
+            workingDir dir
+            args '-patchline', patchline.get(), '-print-version'
         }
+
+        // Retrieve previous version, if already installed
+        def old_version = ''
+        if (properties_file.exists()) {
+            def props = new Properties()
+            props.load(properties_file.newReader())
+
+            old_version = props.version
+        }
+        // Get the version that will be downloaded
+        def version_out = new ByteArrayOutputStream()
+        execOps.exec {
+            executable exe
+            workingDir dir
+            args '-patchline', patchline.get(), '-print-version'
+
+            standardOutput = version_out
+        }
+        def new_version = version_out.toString().trim()
+
+        // Download the server if installation or an update is required
+        if (
+                new_version != old_version
+                        || !new File("$run_dir/Server/HytaleServer.jar").exists()
+                        || !new File("$run_dir/Assets.zip").exists()
+        ) {
+            // Store the game version used
+            ant.propertyfile(file: hytalePropertiesFile.asFile.get()) {
+                entry(key: "patchline", value: patchline.get())
+                entry(key: "version", value: new_version)
+            }
+
+            // Download Hytale
+            execOps.exec {
+                workingDir dir
+                executable exe
+                args '-patchline', patchline.get(), '-download-path', "latest.zip"
+
+                standardInput = System.in
+                standardOutput = System.out
+            }
+        } else {
+            println 'Hytale server is already up to date; skipping update.'
+            return
+        }
+
         // Unzip to run directory
         ant.unzip(
                 src: "$dir/latest.zip",
                 dest: run_dir
         )
 
-        // Get the version that was be downloaded
-        def version_out = new ByteArrayOutputStream()
-        execOps.exec {
-            executable exe
-            args '-patchline', patchline.get(), '-print-version'
-
-            standardOutput = version_out
-        }
-        // Store the game version used
-        ant.propertyfile(file: hytalePropertiesFile.asFile.get()) {
-            entry(key: "patchline", value: patchline.get())
-            entry(key: "version", value: version_out)
+        if (!old_version.empty && new_version != old_version) {
+            println "Updated Hytale server from version $old_version to $new_version"
+        }  else {
+            println "Installed Hytale server version $new_version"
         }
     }
 }
@@ -203,6 +238,11 @@ tasks.register('updateHytaleServer', UpdateHytaleServerTask) {
     hytalePropertiesFile = file project.ext.hytaleProperties
     runDir = file project.ext.serverRunDir
 }
+
+// The HytaleServer.jar file updated in the updateHytaleServer task is a project dependency, thus installing that file
+// in the first place is a dependency for compilation.
+compileJava.mustRunAfter updateHytaleServer
+javadoc.mustRunAfter updateHytaleServer
 
 abstract class RunHytaleServerTask extends DefaultTask {
     private ExecOperations execOps
@@ -235,8 +275,6 @@ abstract class RunHytaleServerTask extends DefaultTask {
 
     @TaskAction
     void run() {
-        // TODO: run updateHytaleServer if the server is not already installed
-
         def dir = runDir.get()
 
         def exe = 'start.sh'
@@ -256,8 +294,10 @@ abstract class RunHytaleServerTask extends DefaultTask {
 }
 
 tasks.register('runHytaleServer', RunHytaleServerTask) {
-    mustRunAfter copyJar
+    dependsOn updateHytaleServer
     dependsOn build
+    mustRunAfter copyJar
+
     description = """
         Builds the mod and runs the Hytale server.
         
@@ -286,7 +326,6 @@ build.finalizedBy copyJar
 
 clean.doFirst {
     delete buildMods
-    delete "$hytaleDownloaderDir/versions/"
 }
 
 idea.project.settings.runConfigurations {
