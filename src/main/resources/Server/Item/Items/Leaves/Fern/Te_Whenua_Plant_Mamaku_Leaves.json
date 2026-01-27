@@ -5,10 +5,10 @@
   "Icon": "Icons/ItemsGenerated/Te_Whenua_Plant_Mamaku_Leaves.png",
   "Parent": "Plant_Fern",
   "BlockType": {
-    "CustomModel": "Te_Whenua_o_Aotearoa/Blocks/Leaves/Fern/Mamaku.blockymodel",
+    "CustomModel": "Blocks/Leaves/Fern/Te_Whenua_Plant_Mamaku_Leaves.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Te_Whenua_o_Aotearoa/Blocks/Leaves/Fern/Mamaku.png",
+        "Texture": "Blocks/Leaves/Fern/Te_Whenua_Plant_Mamaku_Leaves.png",
         "Weight": 1
       }
     ],
@@ -28,19 +28,20 @@
     "Tint": [],
     "BiomeTint": 0,
     "Material": "Solid",
-    "HitboxType": "Plant_Tall_Full",
-    "ParticleColor": "#7dac24"
+    "HitboxType": "Plant_Full",
+    "ParticleColor": "#7dac24",
+    "RequiresAlphaBlending": false
   },
   "IconProperties": {
-    "Scale": 0.16,
+    "Scale": 0.23,
     "Rotation": [
-      22.5,
-      45,
-      22.5
+      17.5,
+      69,
+      17.5
     ],
     "Translation": [
-      0,
-      -8
+      -1.5,
+      -10
     ]
   },
   "Scale": 0.4
