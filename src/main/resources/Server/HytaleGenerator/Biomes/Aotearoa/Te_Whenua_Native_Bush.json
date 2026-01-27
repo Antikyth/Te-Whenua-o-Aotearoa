@@ -1,6 +1,6 @@
 {
 	"$NodeId":	"Biome-f9dfd343-85f8-424a-8eb9-414be230cfe7",
-	"Name":	"NativeBush",
+	"Name":	"Native Bush",
 	"Terrain":	{
 		"$NodeId":	"Terrain-cb90170f-cc3d-45ac-88cb-2f29a795c0b9",
 		"Type":	"DAOTerrain",

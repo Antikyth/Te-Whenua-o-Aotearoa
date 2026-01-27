@@ -2,12 +2,12 @@
   "Type": "NoiseRange",
   "Biomes": [
     {
-      "Biome": "NativeBush",
+      "Biome": "Te_Whenua_Native_Bush",
       "Min": -1,
       "Max": 1
     }
   ],
-  "DefaultBiome": "NativeBush",
+  "DefaultBiome": "Te_Whenua_Native_Bush",
   "DefaultTransitionDistance": 32,
   "MaxBiomeEdgeDistance": 32,
   "Density": {
