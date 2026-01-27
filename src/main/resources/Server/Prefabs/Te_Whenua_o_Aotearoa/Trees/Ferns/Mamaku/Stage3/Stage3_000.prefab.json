@@ -57,7 +57,15 @@
       "x": 0,
       "y": 8,
       "z": 0,
-      "name": "Te_Whenua_Plant_Mamaku_Leaves"
+      "name": "Te_Whenua_Wood_Mamaku_Trunk",
+      "support": 15
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "z": 0,
+      "name": "Te_Whenua_Plant_Mamaku_Leaves",
+      "support": 15
     }
   ],
   "fluids": [
@@ -120,6 +128,13 @@
     {
       "x": 0,
       "y": 8,
+      "z": 0,
+      "name": "Empty",
+      "level": 0
+    },
+    {
+      "x": 0,
+      "y": 9,
       "z": 0,
       "name": "Empty",
       "level": 0
