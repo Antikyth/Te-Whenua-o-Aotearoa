@@ -7,10 +7,12 @@
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Tubes/Corner_Textures/Palm.png",
+        "Texture": "Blocks/Wood/Fern/Mamaku.png",
         "Weight": 1
       }
     ],
-    "ParticleColor": "#ad8545"
+    "ParticleColor": "#ad8545",
+    "CustomModel": "Blocks/Structures/Tubes/Long_Simple_UV.blockymodel",
+    "RequiresAlphaBlending": false
   }
 }
