@@ -2,10 +2,10 @@
   "Type": "Variant",
   "Reference": "Template_Animal_Neutral",
   "Modify": {
-    "Appearance": "Kaakaapoo",
+    "Appearance": "Te_Whenua_Kaakaapoo",
     "FlockArray": [],
     "AttitudeGroup": "Prey",
-    "DropList": "Drop_Kaakaapoo",
+    "DropList": "Te_Whenua_Drop_Kaakaapoo",
     "LovedItems": [],
     "MaxHealth": 38,
     "MaxSpeed": 6,
