@@ -3,7 +3,7 @@
     "Name": "te_whenua_o_aotearoa.items.Wood_Mamaku_Trunk.name"
   },
   "Parent": "Wood_Oak_Branch_Long",
-  "Icon": "Icons/ItemsGenerated/Wood_Palm_Branch_Long.png",
+  "Icon": "Icons/ItemsGenerated/Te_Whenua_Wood_Mamaku_Trunk.png",
   "BlockType": {
     "CustomModelTexture": [
       {
@@ -11,8 +11,20 @@
         "Weight": 1
       }
     ],
-    "ParticleColor": "#ad8545",
+    "ParticleColor": "#574028",
     "CustomModel": "Blocks/Structures/Tubes/Long_Simple_UV.blockymodel",
     "RequiresAlphaBlending": false
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
   }
 }
