@@ -251,6 +251,8 @@ abstract class RunHytaleServerTask extends DefaultTask {
     @InputDirectory
     abstract DirectoryProperty getModsDir()
     @InputDirectory
+    abstract DirectoryProperty getResourcesDir()
+    @InputDirectory
     abstract DirectoryProperty getRunDir()
 
     @Inject
@@ -261,15 +263,14 @@ abstract class RunHytaleServerTask extends DefaultTask {
         setGroup 'Hytale'
     }
 
-    static def createServerRunArguments(String srcDir) {
+    def createServerRunArguments() {
         def programParameters = ['--allow-op', '--disable-sentry']
-        def modPaths = []
-        if (srcDir != null) {
-            modPaths << srcDir
-        }
+        def modPaths = [modsDir.get(), resourcesDir.get()]
+
         if (!modPaths.isEmpty()) {
             programParameters += '--mods="' + modPaths.join(',') + '"'
         }
+
         return programParameters
     }
 
@@ -285,7 +286,7 @@ abstract class RunHytaleServerTask extends DefaultTask {
         execOps.exec {
             workingDir dir
             executable "$dir/$exe"
-            createServerRunArguments("${modsDir.asFile.get()}").forEach { arg -> args arg }
+            createServerRunArguments().forEach { arg -> args arg }
 
             standardInput = System.in
             standardOutput = System.out
@@ -301,11 +302,13 @@ tasks.register('runHytaleServer', RunHytaleServerTask) {
     description = """
         Builds the mod and runs the Hytale server.
         
-        You can connect on your client with 127.0.0.1.
-        
-        Make sure to run updateHytaleServer to download or update the server before use."""
+        You can connect on your client with 127.0.0.1."""
 
     modsDir = file buildMods
+    // src/main is treated as a mod directory so that src/main/resources is loaded as an asset pack to replace the one
+    // in the compiled jar. Why would you want this? Well, purely so that the Asset Editor can edit the source code
+    // files in real time.
+    resourcesDir = file 'src/main'
     runDir = file serverRunDir
 }
 
