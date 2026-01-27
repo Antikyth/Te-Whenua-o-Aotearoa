@@ -46,7 +46,7 @@
     "Walk": {
       "Animations": [
         {
-          "Animation": "NPC/Wildlife/Kaakaapoo/Animations/Default/Walk.blockyanim",
+          "Animation": "Te_Whenua_o_Aotearoa/NPC/Wildlife/Kaakaapoo/Animations/Default/Walk.blockyanim",
           "Looping": true,
           "BlendingDuration": 0.4
         }

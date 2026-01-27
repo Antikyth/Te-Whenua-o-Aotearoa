@@ -5,10 +5,10 @@
   "Icon": "Icons/ItemsGenerated/Te_Whenua_Plant_Mamaku_Leaves.png",
   "Parent": "Plant_Fern",
   "BlockType": {
-    "CustomModel": "Blocks/Leaves/Fern/Mamaku.blockymodel",
+    "CustomModel": "Te_Whenua_o_Aotearoa/Blocks/Leaves/Fern/Mamaku.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Leaves/Fern/Mamaku.png",
+        "Texture": "Te_Whenua_o_Aotearoa/Blocks/Leaves/Fern/Mamaku.png",
         "Weight": 1
       }
     ],
