@@ -1,14 +1,15 @@
 {
   "TranslationProperties": {
-    "Name": "te_whenua_o_aotearoa.items.Plant_Mamaku_Leaves.name"
+    "Name": "te_whenua_o_aotearoa.items.Plant_Ponga_Leaves.name",
+    "Description": "te_whenua_o_aotearoa.items.Plant_Ponga_Leaves.description"
   },
-  "Icon": "Icons/ItemsGenerated/Te_Whenua_Plant_Mamaku_Leaves.png",
+  "Icon": "Icons/ItemsGenerated/Te_Whenua_Plant_Ponga_Leaves.png",
   "Parent": "Plant_Fern",
   "BlockType": {
-    "CustomModel": "Blocks/Leaves/Fern/Mamaku/Te_Whenua_Plant_Mamaku_Leaves.blockymodel",
+    "CustomModel": "Blocks/Leaves/Fern/Ponga/Te_Whenua_Plant_Ponga_Leaves.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Leaves/Fern/Mamaku/Te_Whenua_Plant_Mamaku_Leaves.png",
+        "Texture": "Blocks/Leaves/Fern/Ponga/Te_Whenua_Plant_Ponga_Leaves.png",
         "Weight": 1
       }
     ],
@@ -28,25 +29,26 @@
     "Tint": [],
     "BiomeTint": 0,
     "Material": "Solid",
-    "HitboxType": "Plant_Full",
-    "ParticleColor": "#7dac24",
+    "HitboxType": "Plant_Medium",
+    "ParticleColor": "#bdcc93",
     "RequiresAlphaBlending": false,
+    "Opacity": "Cutout",
     "PlacementSettings": {
       "BlockPreviewVisibility": "AlwaysVisible"
     }
   },
   "IconProperties": {
-    "Scale": 0.23,
+    "Scale": 0.3,
     "Rotation": [
       17.5,
-      69,
+      67.5,
       17.5
     ],
     "Translation": [
       -1.5,
-      -10
+      -3
     ]
   },
-  "Scale": 0.4,
+  "Scale": 0.6,
   "ClipsGeometry": true
 }

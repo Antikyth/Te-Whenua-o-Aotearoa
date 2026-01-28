@@ -1,13 +1,14 @@
 {
   "TranslationProperties": {
-    "Name": "te_whenua_o_aotearoa.items.Wood_Mamaku_Trunk.name"
+    "Name": "te_whenua_o_aotearoa.items.Wood_Ponga_Trunk.name",
+    "Description": "te_whenua_o_aotearoa.items.Wood_Ponga_Trunk.description"
   },
   "Parent": "Wood_Oak_Branch_Long",
-  "Icon": "Icons/ItemsGenerated/Te_Whenua_Wood_Mamaku_Trunk.png",
+  "Icon": "Icons/ItemsGenerated/Te_Whenua_Wood_Ponga_Trunk.png",
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Wood/Fern/Mamaku/Te_Whenua_Wood_Mamaku_Trunk.png",
+        "Texture": "Blocks/Wood/Fern/Ponga/Te_Whenua_Wood_Ponga_Trunk.png",
         "Weight": 1
       }
     ],
