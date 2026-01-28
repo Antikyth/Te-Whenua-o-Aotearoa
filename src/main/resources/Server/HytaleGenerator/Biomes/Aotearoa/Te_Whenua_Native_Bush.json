@@ -75,6 +75,7 @@
 										"FieldFunction":	{
 											"$NodeId":	"SumDensityNode-e33b80c7-145d-439e-a985-af271e0117c1",
 											"Type":	"Sum",
+											"ExportAs":	"Aotearoa_Native_Bush_Foliage_Density",
 											"Skip":	false,
 											"Inputs":	[{
 													"$NodeId":	"NormalizerDensityNode-cac4a6e7-dafc-45db-9331-12933737764a",
@@ -130,7 +131,7 @@
 											}, {
 												"$NodeId":	"DelimiterFieldFunctionMP-f7f84639-c8cf-4fa3-8978-fd47c3170f08",
 												"From":	0.1,
-												"To":	2,
+												"To":	1,
 												"Material":	{
 													"$NodeId":	"ConstantMaterialProvider-ce1bf570-7403-40ce-bded-e8af8414ac4b",
 													"Type":	"Constant",
@@ -297,11 +298,12 @@
 								"Directionality":	{
 									"$NodeId":	"Static.Directionality-c829aad7-3b08-4c42-b7c1-56f937d90fa1",
 									"Type":	"Static",
+									"ExportAs":	"Aotearoa_Native_Bush_Bushes_Directionality",
 									"Rotation":	0,
 									"Pattern":	{
 										"$NodeId":	"Floor.Pattern-c20015ee-c175-4b20-9cd8-26eb1d7616f1",
 										"Type":	"Floor",
-										"ExportAs":	"Aotearoa_Native_Bush_Bushes_Floor",
+										"ExportAs":	"",
 										"Skip":	false,
 										"Origin":	{
 											"$NodeId":	"BlockSet.Pattern-52951b40-7ef4-4817-a053-dc2e84afd4f6",
@@ -384,13 +386,18 @@
 				}
 			},
 			"Assignments":	{
-				"$NodeId":	"Weighted.Assignments-942c73a0-9aaf-4997-9a03-3ccd31965e78",
-				"Type":	"Weighted",
-				"SkipChance":	0,
-				"Seed":	"A",
-				"WeightedAssignments":	[{
-						"$NodeId":	"Weight.Weighted.Assignments-1f0b6bf7-0ceb-497c-9984-5eb91090a10d",
-						"Weight":	70,
+				"$NodeId":	"FieldFunction.Assignments-2dfe452b-8ca1-4e6d-8142-57ce1a2365a0",
+				"Type":	"FieldFunction",
+				"FieldFunction":	{
+					"$NodeId":	"ImportedDensityNode-9984ce3a-747b-4b4b-ac67-982073face9f",
+					"Type":	"Imported",
+					"Skip":	false,
+					"Name":	"Aotearoa_Native_Bush_Foliage_Density"
+				},
+				"Delimiters":	[{
+						"$NodeId":	"Delimiter.FieldFunction.Assignments-df73a6d3-0bae-42af-b38a-d5b54e16c70e",
+						"Max":	-0.2,
+						"Min":	-1.6,
 						"Assignments":	{
 							"$NodeId":	"Constant.Assignments-7773dbc4-540a-48bf-9649-083ca80e2b40",
 							"Type":	"Constant",
@@ -418,50 +425,116 @@
 										"$NodeId":	"WeightedPath.Prefab.Prop-93518b29-15cb-47cb-be61-ef2dffe44755",
 										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage4",
 										"Weight":	10
+									}, {
+										"$NodeId":	"WeightedPath.Prefab.Prop-b7b87518-5676-4111-aa17-1a1162c596aa",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Ponga/Stage1",
+										"Weight":	30
+									}, {
+										"$NodeId":	"WeightedPath.Prefab.Prop-20497d0a-04cb-4b0a-a43d-985c95917aef",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Ponga/Stage2",
+										"Weight":	50
+									}, {
+										"$NodeId":	"WeightedPath.Prefab.Prop-a398b062-daa8-4f2e-8b28-f8b6280f00cd",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Ponga/Stage3",
+										"Weight":	50
+									}, {
+										"$NodeId":	"WeightedPath.Prefab.Prop-636af3b3-bbdf-4086-9c3f-8bb9c2095b33",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Ponga/Stage4",
+										"Weight":	15
 									}],
 								"LegacyPath":	false,
 								"LoadEntities":	true,
 								"Directionality":	{
-									"$NodeId":	"Static.Directionality-1f8e4eb2-f2fb-46fb-8944-f6d6357e3120",
+									"$NodeId":	"Imported.Directionality-46ca0f08-7a07-4539-b30e-e6b9fd5dc374",
+									"Type":	"Imported",
+									"Name":	"Aotearoa_Native_Bush_Bushes_Directionality"
+								},
+								"Scanner":	{
+									"$NodeId":	"ColumnLinear.Scanner-8a1ffedc-0ed4-495f-837d-d4bce6f3ca2c",
+									"Type":	"ColumnLinear",
+									"Skip":	false,
+									"MaxY":	60,
+									"MinY":	0,
+									"RelativeToPosition":	false,
+									"BaseHeightName":	"Water",
+									"TopDownOrder":	true,
+									"ResultCap":	1
+								},
+								"MoldingDirection":	"None",
+								"MoldingChildren":	false
+							}
+						}
+					}, {
+						"$NodeId":	"Delimiter.FieldFunction.Assignments-f1f3a8c8-193e-4ca1-93d0-227af9258043",
+						"Max":	0.25,
+						"Min":	-0.2,
+						"Assignments":	{
+							"$NodeId":	"Constant.Assignments-88045215-520f-4dfa-9ed0-2a69a8ff942d",
+							"Type":	"Constant",
+							"Prop":	{
+								"$NodeId":	"Prefab.Prop-bc111174-68da-4b8d-9d8c-4ac27f351ce9",
+								"Type":	"Prefab",
+								"Skip":	false,
+								"WeightedPrefabPaths":	[{
+										"$NodeId":	"WeightedPath.Prefab.Prop-2dce32fd-9073-42f9-bc14-fc519c01e2ce",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage0",
+										"Weight":	50
+									}, {
+										"$NodeId":	"WeightedPath.Prefab.Prop-9f8598e3-7d81-457e-a40c-81422927f199",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage1",
+										"Weight":	10
+									}, {
+										"$NodeId":	"WeightedPath.Prefab.Prop-17e9eb5e-fcd6-4f78-b91f-7cef2bccd46d",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Ponga/Stage1",
+										"Weight":	60
+									}, {
+										"$NodeId":	"WeightedPath.Prefab.Prop-03d433aa-d5a4-4118-9a8e-3df2a77f5c22",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Ponga/Stage2",
+										"Weight":	25
+									}],
+								"LegacyPath":	false,
+								"LoadEntities":	true,
+								"Directionality":	{
+									"$NodeId":	"Static.Directionality-5c7a1a95-92ce-4575-af67-8ad20b3bdcd3",
 									"Type":	"Static",
 									"Rotation":	0,
 									"Pattern":	{
-										"$NodeId":	"Floor.Pattern-73128e09-89f2-4623-b2ba-7728d2aa2378",
+										"$NodeId":	"Floor.Pattern-518fd0a4-171a-4517-8923-2c1e67897b8d",
 										"Type":	"Floor",
 										"Skip":	false,
 										"Origin":	{
-											"$NodeId":	"BlockSet.Pattern-26ee138c-13e7-4f20-82c4-e1acd0ca1e4a",
+											"$NodeId":	"BlockSet.Pattern-68333a04-eb40-4dcc-aa91-639682abba19",
 											"Type":	"BlockSet",
 											"Skip":	false,
 											"BlockSet":	{
-												"$NodeId":	"BlockSet.BlockMask-ca89c163-3496-4e54-84b5-28d75bfcfba2",
+												"$NodeId":	"BlockSet.BlockMask-a81e4918-1ee0-489e-ad3f-ee0e25b4e43c",
 												"Inclusive":	true,
 												"Materials":	[{
-														"$NodeId":	"Material-e8a3df04-5eb9-4619-b956-6c51974466c2",
+														"$NodeId":	"Material-77e2e6aa-3e84-4d34-b291-2c06db4f31a1",
 														"Solid":	"Empty"
 													}]
 											}
 										},
 										"Floor":	{
-											"$NodeId":	"BlockSet.Pattern-85dc5e7a-0e3e-4f45-8e9b-687dbedb9442",
+											"$NodeId":	"BlockSet.Pattern-d24870ac-021d-4081-a53d-e539315be4ee",
 											"Type":	"BlockSet",
 											"Skip":	false,
 											"BlockSet":	{
-												"$NodeId":	"BlockSet.BlockMask-611cfe4e-0210-4c5b-9468-23b9fd8faefa",
+												"$NodeId":	"BlockSet.BlockMask-0196c860-49a4-429f-ac95-9a7a858ec742",
 												"Inclusive":	true,
 												"Materials":	[{
-														"$NodeId":	"Material-df07f01f-d1bd-4b08-8dd9-dffce651e6be",
-														"Solid":	"Soil_Needles"
-													}, {
-														"$NodeId":	"Material-3980aaa6-5320-4da3-9378-7541b221598b",
+														"$NodeId":	"Material-221acaa6-2de6-4c8c-9776-a2c1038ab4e5",
 														"Solid":	"Soil_Pathway"
+													}, {
+														"$NodeId":	"Material-aa27a0e9-8f92-4be1-8871-6807cd2b8df8",
+														"Solid":	"Soil_Grass_Sunny"
 													}]
 											}
 										}
 									}
 								},
 								"Scanner":	{
-									"$NodeId":	"ColumnLinear.Scanner-8a1ffedc-0ed4-495f-837d-d4bce6f3ca2c",
+									"$NodeId":	"ColumnLinear.Scanner-6c27717d-c0b0-4638-be28-9b8b11eec308",
 									"Type":	"ColumnLinear",
 									"Skip":	false,
 									"MaxY":	60,
@@ -929,106 +1002,40 @@
 					"$y":	-95
 				}
 			},
-			"Weighted.Assignments-942c73a0-9aaf-4997-9a03-3ccd31965e78":	{
-				"$Position":	{
-					"$x":	-2068,
-					"$y":	202
-				}
-			},
-			"Weight.Weighted.Assignments-1f0b6bf7-0ceb-497c-9984-5eb91090a10d":	{
-				"$Position":	{
-					"$x":	-1244,
-					"$y":	199
-				}
-			},
 			"Constant.Assignments-7773dbc4-540a-48bf-9649-083ca80e2b40":	{
 				"$Position":	{
-					"$x":	-601,
-					"$y":	191
+					"$x":	-741,
+					"$y":	188
 				}
 			},
 			"Prefab.Prop-dd9c6fc4-d18e-4688-8bfc-793864a4bff0":	{
 				"$Position":	{
-					"$x":	101,
-					"$y":	230
+					"$x":	34,
+					"$y":	201
 				}
 			},
 			"WeightedPath.Prefab.Prop-70f632f1-5bc8-4aec-b034-c7f5061f2078":	{
 				"$Position":	{
-					"$x":	971,
-					"$y":	-114
+					"$x":	1024,
+					"$y":	-87
 				}
 			},
 			"WeightedPath.Prefab.Prop-fc2d88ba-994e-463f-aff1-dcab721f30cd":	{
 				"$Position":	{
-					"$x":	978,
-					"$y":	56
+					"$x":	1031,
+					"$y":	83
 				}
 			},
 			"WeightedPath.Prefab.Prop-93518b29-15cb-47cb-be61-ef2dffe44755":	{
 				"$Position":	{
-					"$x":	975,
-					"$y":	207
-				}
-			},
-			"Static.Directionality-1f8e4eb2-f2fb-46fb-8944-f6d6357e3120":	{
-				"$Position":	{
-					"$x":	987,
-					"$y":	390
-				}
-			},
-			"Floor.Pattern-73128e09-89f2-4623-b2ba-7728d2aa2378":	{
-				"$Position":	{
-					"$x":	1687,
-					"$y":	395
-				}
-			},
-			"BlockSet.Pattern-26ee138c-13e7-4f20-82c4-e1acd0ca1e4a":	{
-				"$Position":	{
-					"$x":	2377,
-					"$y":	216
-				}
-			},
-			"BlockSet.BlockMask-ca89c163-3496-4e54-84b5-28d75bfcfba2":	{
-				"$Position":	{
-					"$x":	3076,
-					"$y":	223
-				}
-			},
-			"Material-e8a3df04-5eb9-4619-b956-6c51974466c2":	{
-				"$Position":	{
-					"$x":	3614,
-					"$y":	219
-				}
-			},
-			"BlockSet.Pattern-85dc5e7a-0e3e-4f45-8e9b-687dbedb9442":	{
-				"$Position":	{
-					"$x":	2397,
-					"$y":	444
-				}
-			},
-			"BlockSet.BlockMask-611cfe4e-0210-4c5b-9468-23b9fd8faefa":	{
-				"$Position":	{
-					"$x":	3052,
-					"$y":	452
-				}
-			},
-			"Material-df07f01f-d1bd-4b08-8dd9-dffce651e6be":	{
-				"$Position":	{
-					"$x":	3544,
-					"$y":	456
-				}
-			},
-			"Material-3980aaa6-5320-4da3-9378-7541b221598b":	{
-				"$Position":	{
-					"$x":	3563,
-					"$y":	619
+					"$x":	1028,
+					"$y":	234
 				}
 			},
 			"ColumnLinear.Scanner-8a1ffedc-0ed4-495f-837d-d4bce6f3ca2c":	{
 				"$Position":	{
-					"$x":	964,
-					"$y":	611
+					"$x":	948,
+					"$y":	1494
 				}
 			},
 			"Constant.EnvironmentProvider-e5438145-faaf-4147-87d2-9d82d01893d5":	{
@@ -1093,14 +1100,172 @@
 			},
 			"WeightedPath.Prefab.Prop-4c3dca0c-8599-4619-b0dc-7c03d80036a1":	{
 				"$Position":	{
-					"$x":	974,
-					"$y":	-274
+					"$x":	1027,
+					"$y":	-248
 				}
 			},
 			"WeightedPath.Prefab.Prop-55d2d126-e7c6-4a0f-9357-7371993bc7f2":	{
 				"$Position":	{
-					"$x":	981,
-					"$y":	-445
+					"$x":	1034,
+					"$y":	-418
+				}
+			},
+			"FieldFunction.Assignments-2dfe452b-8ca1-4e6d-8142-57ce1a2365a0":	{
+				"$Position":	{
+					"$x":	-2184,
+					"$y":	195
+				}
+			},
+			"ImportedDensityNode-9984ce3a-747b-4b4b-ac67-982073face9f":	{
+				"$Position":	{
+					"$x":	-1408,
+					"$y":	189
+				}
+			},
+			"Delimiter.FieldFunction.Assignments-df73a6d3-0bae-42af-b38a-d5b54e16c70e":	{
+				"$Position":	{
+					"$x":	-1405,
+					"$y":	351
+				},
+				"$Title":	"Needles"
+			},
+			"Delimiter.FieldFunction.Assignments-f1f3a8c8-193e-4ca1-93d0-227af9258043":	{
+				"$Position":	{
+					"$x":	-1413,
+					"$y":	669
+				},
+				"$Title":	"Pathway"
+			},
+			"Constant.Assignments-88045215-520f-4dfa-9ed0-2a69a8ff942d":	{
+				"$Position":	{
+					"$x":	-645,
+					"$y":	2675
+				}
+			},
+			"Prefab.Prop-bc111174-68da-4b8d-9d8c-4ac27f351ce9":	{
+				"$Position":	{
+					"$x":	76,
+					"$y":	2679
+				}
+			},
+			"Static.Directionality-5c7a1a95-92ce-4575-af67-8ad20b3bdcd3":	{
+				"$Position":	{
+					"$x":	889,
+					"$y":	2722
+				}
+			},
+			"Floor.Pattern-518fd0a4-171a-4517-8923-2c1e67897b8d":	{
+				"$Position":	{
+					"$x":	1612,
+					"$y":	2720
+				}
+			},
+			"BlockSet.Pattern-68333a04-eb40-4dcc-aa91-639682abba19":	{
+				"$Position":	{
+					"$x":	2331,
+					"$y":	2332
+				}
+			},
+			"BlockSet.BlockMask-a81e4918-1ee0-489e-ad3f-ee0e25b4e43c":	{
+				"$Position":	{
+					"$x":	3030,
+					"$y":	2339
+				}
+			},
+			"Material-77e2e6aa-3e84-4d34-b291-2c06db4f31a1":	{
+				"$Position":	{
+					"$x":	3568,
+					"$y":	2335
+				}
+			},
+			"BlockSet.Pattern-d24870ac-021d-4081-a53d-e539315be4ee":	{
+				"$Position":	{
+					"$x":	2364,
+					"$y":	2779
+				}
+			},
+			"BlockSet.BlockMask-0196c860-49a4-429f-ac95-9a7a858ec742":	{
+				"$Position":	{
+					"$x":	3019,
+					"$y":	2786
+				}
+			},
+			"Material-221acaa6-2de6-4c8c-9776-a2c1038ab4e5":	{
+				"$Position":	{
+					"$x":	3566,
+					"$y":	2571
+				}
+			},
+			"WeightedPath.Prefab.Prop-2dce32fd-9073-42f9-bc14-fc519c01e2ce":	{
+				"$Position":	{
+					"$x":	899,
+					"$y":	2014
+				}
+			},
+			"WeightedPath.Prefab.Prop-9f8598e3-7d81-457e-a40c-81422927f199":	{
+				"$Position":	{
+					"$x":	892,
+					"$y":	2185
+				}
+			},
+			"Material-aa27a0e9-8f92-4be1-8871-6807cd2b8df8":	{
+				"$Position":	{
+					"$x":	3568,
+					"$y":	2751
+				}
+			},
+			"ColumnLinear.Scanner-6c27717d-c0b0-4638-be28-9b8b11eec308":	{
+				"$Position":	{
+					"$x":	891,
+					"$y":	2892
+				}
+			},
+			"Weighted.Assignments-5aa01e6f-75ae-44b4-8fd1-0567859c2980":	{
+				"$Position":	{
+					"$x":	-758,
+					"$y":	605
+				}
+			},
+			"Imported.Directionality-46ca0f08-7a07-4539-b30e-e6b9fd5dc374":	{
+				"$Position":	{
+					"$x":	965,
+					"$y":	1351
+				}
+			},
+			"WeightedPath.Prefab.Prop-b7b87518-5676-4111-aa17-1a1162c596aa":	{
+				"$Position":	{
+					"$x":	1011,
+					"$y":	642
+				}
+			},
+			"WeightedPath.Prefab.Prop-20497d0a-04cb-4b0a-a43d-985c95917aef":	{
+				"$Position":	{
+					"$x":	1010,
+					"$y":	809
+				}
+			},
+			"WeightedPath.Prefab.Prop-a398b062-daa8-4f2e-8b28-f8b6280f00cd":	{
+				"$Position":	{
+					"$x":	1011,
+					"$y":	962
+				}
+			},
+			"WeightedPath.Prefab.Prop-636af3b3-bbdf-4086-9c3f-8bb9c2095b33":	{
+				"$Position":	{
+					"$x":	1017,
+					"$y":	1116
+				}
+			},
+			"WeightedPath.Prefab.Prop-17e9eb5e-fcd6-4f78-b91f-7cef2bccd46d":	{
+				"$Position":	{
+					"$x":	896,
+					"$y":	2338
+				}
+			},
+			"WeightedPath.Prefab.Prop-03d433aa-d5a4-4118-9a8e-3df2a77f5c22":	{
+				"$Position":	{
+					"$x":	895,
+					"$y":	2497
 				}
 			}
 		},
@@ -1145,6 +1310,11 @@
 				"$NodeId":	"Imported.Assignments-300e5207-1396-47b5-a42c-098657f2590c",
 				"Type":	"Imported",
 				"Name":	"Aotearoa_Native_Bush_Bushes"
+			}, {
+				"$NodeId":	"Weighted.Assignments-5aa01e6f-75ae-44b4-8fd1-0567859c2980",
+				"Type":	"Weighted",
+				"SkipChance":	0,
+				"Seed":	"Aotearoa_Native_Bush_Trees"
 			}],
 		"$Links":	{
 		},
@@ -1178,7 +1348,7 @@
 					"$y":	-2786.75
 				},
 				"$width":	6641.9375,
-				"$height":	2151.4375,
+				"$height":	2071.3125,
 				"$name":	"Bushes"
 			}, {
 				"$Position":	{
@@ -1186,16 +1356,32 @@
 					"$y":	-1665.375
 				},
 				"$width":	3899.125,
-				"$height":	961.875,
+				"$height":	869.25,
 				"$name":	"Ferns"
 			}, {
 				"$Position":	{
 					"$x":	-2812.3125,
-					"$y":	-565.4375
+					"$y":	-630.5
 				},
-				"$width":	7177.4375,
-				"$height":	1668.25,
+				"$width":	9448.6875,
+				"$height":	4202.5,
 				"$name":	"Medium Trees"
+			}, {
+				"$Position":	{
+					"$x":	971.5,
+					"$y":	568.8125
+				},
+				"$width":	1068.3125,
+				"$height":	726.25,
+				"$name":	"Ponga"
+			}, {
+				"$Position":	{
+					"$x":	1001.3125,
+					"$y":	-488.9375
+				},
+				"$width":	1063.625,
+				"$height":	898.0625,
+				"$name":	"Mamaku"
 			}],
 		"$Comments":	[],
 		"$WorkspaceID":	"HytaleGenerator - Biome"

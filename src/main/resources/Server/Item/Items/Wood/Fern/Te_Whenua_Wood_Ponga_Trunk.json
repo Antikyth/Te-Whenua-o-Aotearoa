@@ -12,7 +12,7 @@
         "Weight": 1
       }
     ],
-    "ParticleColor": "#574028",
+    "ParticleColor": "#795845",
     "CustomModel": "Blocks/Structures/Tubes/Long_Simple_UV.blockymodel",
     "RequiresAlphaBlending": false
   },
