@@ -257,15 +257,9 @@
 										}
 									}],
 								"Directionality":	{
-									"$NodeId":	"Static.Directionality-b6928b12-df2c-4a66-a48d-08b91f231c44",
-									"Type":	"Static",
-									"Rotation":	0,
-									"Pattern":	{
-										"$NodeId":	"Imported.Pattern-459a6d78-fb5f-4b71-ba10-9c4bd2b33e07",
-										"Type":	"Imported",
-										"Skip":	false,
-										"Name":	"Aotearoa_Native_Bush_Bushes_Floor"
-									}
+									"$NodeId":	"Imported.Directionality-c4791e61-2b7a-4285-acc2-a2692831a2e8",
+									"Type":	"Imported",
+									"Name":	"Aotearoa_Native_Bush_Bushes_Directionality"
 								},
 								"Scanner":	{
 									"$NodeId":	"ColumnLinear.Scanner-2f7f6fd1-a12f-4e47-b0d9-f8471d47970f",
@@ -296,14 +290,14 @@
 										}
 									}],
 								"Directionality":	{
-									"$NodeId":	"Static.Directionality-c829aad7-3b08-4c42-b7c1-56f937d90fa1",
-									"Type":	"Static",
+									"$NodeId":	"Random.Directionality-89f7c3b7-e587-4ad9-8835-f58745444f32",
+									"Type":	"Random",
 									"ExportAs":	"Aotearoa_Native_Bush_Bushes_Directionality",
-									"Rotation":	0,
+									"Seed":	"Aotearoa_Native_Bush_Bushes_Directionality",
 									"Pattern":	{
 										"$NodeId":	"Floor.Pattern-c20015ee-c175-4b20-9cd8-26eb1d7616f1",
 										"Type":	"Floor",
-										"ExportAs":	"",
+										"ExportAs":	"Aotearoa_Native_Bush_Bushes_Floor",
 										"Skip":	false,
 										"Origin":	{
 											"$NodeId":	"BlockSet.Pattern-52951b40-7ef4-4817-a053-dc2e84afd4f6",
@@ -406,24 +400,16 @@
 								"Type":	"Prefab",
 								"Skip":	false,
 								"WeightedPrefabPaths":	[{
-										"$NodeId":	"WeightedPath.Prefab.Prop-55d2d126-e7c6-4a0f-9357-7371993bc7f2",
-										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage0",
-										"Weight":	15
+										"$NodeId":	"WeightedPath.Prefab.Prop-8d34588d-9169-4108-9426-0115744d171e",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Conifers/Rimu/Stage0",
+										"Weight":	10
 									}, {
-										"$NodeId":	"WeightedPath.Prefab.Prop-4c3dca0c-8599-4619-b0dc-7c03d80036a1",
-										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage1",
-										"Weight":	20
+										"$NodeId":	"WeightedPath.Prefab.Prop-201f2d9e-fa7c-49b5-a238-051c3aa9a7a7",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Conifers/Rimu/Stage1",
+										"Weight":	8
 									}, {
-										"$NodeId":	"WeightedPath.Prefab.Prop-70f632f1-5bc8-4aec-b034-c7f5061f2078",
-										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage2",
-										"Weight":	30
-									}, {
-										"$NodeId":	"WeightedPath.Prefab.Prop-fc2d88ba-994e-463f-aff1-dcab721f30cd",
-										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage3",
-										"Weight":	30
-									}, {
-										"$NodeId":	"WeightedPath.Prefab.Prop-93518b29-15cb-47cb-be61-ef2dffe44755",
-										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage4",
+										"$NodeId":	"WeightedPath.Prefab.Prop-024bfcb0-dbfd-4f84-ae97-45320d18ffba",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Conifers/Rimu/Stage2",
 										"Weight":	10
 									}, {
 										"$NodeId":	"WeightedPath.Prefab.Prop-b7b87518-5676-4111-aa17-1a1162c596aa",
@@ -442,16 +428,24 @@
 										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Ponga/Stage4",
 										"Weight":	15
 									}, {
-										"$NodeId":	"WeightedPath.Prefab.Prop-8d34588d-9169-4108-9426-0115744d171e",
-										"Path":	"Te_Whenua_o_Aotearoa/Trees/Conifers/Rimu/Stage0",
-										"Weight":	10
+										"$NodeId":	"WeightedPath.Prefab.Prop-55d2d126-e7c6-4a0f-9357-7371993bc7f2",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage0",
+										"Weight":	15
 									}, {
-										"$NodeId":	"WeightedPath.Prefab.Prop-201f2d9e-fa7c-49b5-a238-051c3aa9a7a7",
-										"Path":	"Te_Whenua_o_Aotearoa/Trees/Conifers/Rimu/Stage1",
-										"Weight":	8
+										"$NodeId":	"WeightedPath.Prefab.Prop-4c3dca0c-8599-4619-b0dc-7c03d80036a1",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage1",
+										"Weight":	20
 									}, {
-										"$NodeId":	"WeightedPath.Prefab.Prop-024bfcb0-dbfd-4f84-ae97-45320d18ffba",
-										"Path":	"Te_Whenua_o_Aotearoa/Trees/Conifers/Rimu/Stage2",
+										"$NodeId":	"WeightedPath.Prefab.Prop-70f632f1-5bc8-4aec-b034-c7f5061f2078",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage2",
+										"Weight":	30
+									}, {
+										"$NodeId":	"WeightedPath.Prefab.Prop-fc2d88ba-994e-463f-aff1-dcab721f30cd",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage3",
+										"Weight":	30
+									}, {
+										"$NodeId":	"WeightedPath.Prefab.Prop-93518b29-15cb-47cb-be61-ef2dffe44755",
+										"Path":	"Te_Whenua_o_Aotearoa/Trees/Ferns/Mamaku/Stage4",
 										"Weight":	10
 									}],
 								"LegacyPath":	false,
@@ -888,18 +882,6 @@
 					"$y":	-2466
 				}
 			},
-			"Static.Directionality-b6928b12-df2c-4a66-a48d-08b91f231c44":	{
-				"$Position":	{
-					"$x":	704,
-					"$y":	-2279
-				}
-			},
-			"Imported.Pattern-459a6d78-fb5f-4b71-ba10-9c4bd2b33e07":	{
-				"$Position":	{
-					"$x":	1455,
-					"$y":	-2277
-				}
-			},
 			"ColumnLinear.Scanner-2f7f6fd1-a12f-4e47-b0d9-f8471d47970f":	{
 				"$Position":	{
 					"$x":	713,
@@ -930,52 +912,46 @@
 					"$y":	-1550
 				}
 			},
-			"Static.Directionality-c829aad7-3b08-4c42-b7c1-56f937d90fa1":	{
-				"$Position":	{
-					"$x":	554,
-					"$y":	-1383
-				}
-			},
 			"Floor.Pattern-c20015ee-c175-4b20-9cd8-26eb1d7616f1":	{
 				"$Position":	{
-					"$x":	1174,
-					"$y":	-1376
+					"$x":	1234,
+					"$y":	-1379
 				}
 			},
 			"BlockSet.Pattern-52951b40-7ef4-4817-a053-dc2e84afd4f6":	{
 				"$Position":	{
-					"$x":	1822,
-					"$y":	-1544
+					"$x":	1882,
+					"$y":	-1547
 				}
 			},
 			"BlockSet.BlockMask-dc092cf9-a294-4b4e-8d36-7acf33461a24":	{
 				"$Position":	{
-					"$x":	2454,
-					"$y":	-1539
+					"$x":	2514,
+					"$y":	-1542
 				}
 			},
 			"Material-73c6e680-e04d-4f74-b9dc-3c8c829a4f1e":	{
 				"$Position":	{
-					"$x":	2955,
-					"$y":	-1549
+					"$x":	3015,
+					"$y":	-1552
 				}
 			},
 			"BlockSet.Pattern-955de83e-9ee6-4858-8c8d-f0bd6151cc79":	{
 				"$Position":	{
-					"$x":	1823,
-					"$y":	-1165
+					"$x":	1883,
+					"$y":	-1168
 				}
 			},
 			"BlockSet.BlockMask-fcbab49f-5704-45be-922b-29d88cd82cdc":	{
 				"$Position":	{
-					"$x":	2455,
-					"$y":	-1167
+					"$x":	2515,
+					"$y":	-1170
 				}
 			},
 			"Material-af82acdf-638b-4425-8b5e-0c8c3729419c":	{
 				"$Position":	{
-					"$x":	3001,
-					"$y":	-1202
+					"$x":	3061,
+					"$y":	-1205
 				}
 			},
 			"ColumnLinear.Scanner-bc3404b9-0b65-4742-bc37-5da5f76ed30f":	{
@@ -986,8 +962,8 @@
 			},
 			"Imported.Pattern-de8a0980-f34a-4cd0-90a7-daa24e4f461e":	{
 				"$Position":	{
-					"$x":	-727,
-					"$y":	-1267
+					"$x":	-658,
+					"$y":	-1288
 				}
 			},
 			"ColumnLinear.Scanner-8ec9a566-513c-4512-9122-aa80b7c24082":	{
@@ -998,219 +974,219 @@
 			},
 			"Runtime-93e7687f-0eef-4e81-9688-285ad8b7d725":	{
 				"$Position":	{
-					"$x":	-2756,
+					"$x":	-2752,
 					"$y":	64
 				}
 			},
 			"Mesh2DPositions-2e45cfcc-f69f-4677-bd16-c606411cb122":	{
 				"$Position":	{
-					"$x":	-2052,
+					"$x":	-2048,
 					"$y":	-96
 				}
 			},
 			"MeshPointGenerator-adce63b3-52a6-421f-87f4-f3954ecf862d":	{
 				"$Position":	{
-					"$x":	-1377,
+					"$x":	-1373,
 					"$y":	-95
 				}
 			},
 			"FieldFunction.Assignments-2dfe452b-8ca1-4e6d-8142-57ce1a2365a0":	{
 				"$Position":	{
-					"$x":	-2184,
+					"$x":	-2180,
 					"$y":	195
 				}
 			},
 			"ImportedDensityNode-9984ce3a-747b-4b4b-ac67-982073face9f":	{
 				"$Position":	{
-					"$x":	-1408,
+					"$x":	-1404,
 					"$y":	189
 				}
 			},
 			"Delimiter.FieldFunction.Assignments-df73a6d3-0bae-42af-b38a-d5b54e16c70e":	{
 				"$Position":	{
-					"$x":	-1405,
+					"$x":	-1401,
 					"$y":	351
 				},
 				"$Title":	"Needles"
 			},
 			"Constant.Assignments-7773dbc4-540a-48bf-9649-083ca80e2b40":	{
 				"$Position":	{
-					"$x":	-741,
+					"$x":	-737,
 					"$y":	188
 				}
 			},
 			"Prefab.Prop-dd9c6fc4-d18e-4688-8bfc-793864a4bff0":	{
 				"$Position":	{
-					"$x":	26,
+					"$x":	30,
 					"$y":	184
 				}
 			},
 			"WeightedPath.Prefab.Prop-55d2d126-e7c6-4a0f-9357-7371993bc7f2":	{
 				"$Position":	{
-					"$x":	1034,
-					"$y":	-418
+					"$x":	1047,
+					"$y":	1194
 				}
 			},
 			"WeightedPath.Prefab.Prop-4c3dca0c-8599-4619-b0dc-7c03d80036a1":	{
 				"$Position":	{
-					"$x":	1027,
-					"$y":	-248
+					"$x":	1040,
+					"$y":	1364
 				}
 			},
 			"WeightedPath.Prefab.Prop-70f632f1-5bc8-4aec-b034-c7f5061f2078":	{
 				"$Position":	{
-					"$x":	1024,
-					"$y":	-87
+					"$x":	1037,
+					"$y":	1525
 				}
 			},
 			"WeightedPath.Prefab.Prop-fc2d88ba-994e-463f-aff1-dcab721f30cd":	{
 				"$Position":	{
-					"$x":	1031,
-					"$y":	83
+					"$x":	1044,
+					"$y":	1695
 				}
 			},
 			"WeightedPath.Prefab.Prop-93518b29-15cb-47cb-be61-ef2dffe44755":	{
 				"$Position":	{
-					"$x":	1028,
-					"$y":	234
+					"$x":	1041,
+					"$y":	1846
 				}
 			},
 			"WeightedPath.Prefab.Prop-b7b87518-5676-4111-aa17-1a1162c596aa":	{
 				"$Position":	{
-					"$x":	1011,
-					"$y":	642
+					"$x":	1019,
+					"$y":	371
 				}
 			},
 			"WeightedPath.Prefab.Prop-20497d0a-04cb-4b0a-a43d-985c95917aef":	{
 				"$Position":	{
-					"$x":	1010,
-					"$y":	809
+					"$x":	1018,
+					"$y":	538
 				}
 			},
 			"WeightedPath.Prefab.Prop-a398b062-daa8-4f2e-8b28-f8b6280f00cd":	{
 				"$Position":	{
-					"$x":	1011,
-					"$y":	962
+					"$x":	1019,
+					"$y":	691
 				}
 			},
 			"WeightedPath.Prefab.Prop-636af3b3-bbdf-4086-9c3f-8bb9c2095b33":	{
 				"$Position":	{
-					"$x":	1017,
-					"$y":	1116
+					"$x":	1025,
+					"$y":	845
 				}
 			},
 			"Imported.Directionality-46ca0f08-7a07-4539-b30e-e6b9fd5dc374":	{
 				"$Position":	{
-					"$x":	1048,
-					"$y":	2005
+					"$x":	1003,
+					"$y":	2112
 				}
 			},
 			"ColumnLinear.Scanner-8a1ffedc-0ed4-495f-837d-d4bce6f3ca2c":	{
 				"$Position":	{
-					"$x":	1031,
-					"$y":	2148
+					"$x":	986,
+					"$y":	2255
 				}
 			},
 			"Delimiter.FieldFunction.Assignments-f1f3a8c8-193e-4ca1-93d0-227af9258043":	{
 				"$Position":	{
-					"$x":	-1413,
+					"$x":	-1409,
 					"$y":	669
 				},
 				"$Title":	"Pathway"
 			},
 			"Constant.Assignments-88045215-520f-4dfa-9ed0-2a69a8ff942d":	{
 				"$Position":	{
-					"$x":	-561,
+					"$x":	-557,
 					"$y":	3329
 				}
 			},
 			"Prefab.Prop-bc111174-68da-4b8d-9d8c-4ac27f351ce9":	{
 				"$Position":	{
-					"$x":	159,
+					"$x":	163,
 					"$y":	3333
 				}
 			},
 			"WeightedPath.Prefab.Prop-2dce32fd-9073-42f9-bc14-fc519c01e2ce":	{
 				"$Position":	{
-					"$x":	982,
+					"$x":	986,
 					"$y":	2668
 				}
 			},
 			"WeightedPath.Prefab.Prop-9f8598e3-7d81-457e-a40c-81422927f199":	{
 				"$Position":	{
-					"$x":	975,
+					"$x":	979,
 					"$y":	2839
 				}
 			},
 			"WeightedPath.Prefab.Prop-17e9eb5e-fcd6-4f78-b91f-7cef2bccd46d":	{
 				"$Position":	{
-					"$x":	979,
+					"$x":	983,
 					"$y":	2992
 				}
 			},
 			"WeightedPath.Prefab.Prop-03d433aa-d5a4-4118-9a8e-3df2a77f5c22":	{
 				"$Position":	{
-					"$x":	978,
+					"$x":	982,
 					"$y":	3151
 				}
 			},
 			"Static.Directionality-5c7a1a95-92ce-4575-af67-8ad20b3bdcd3":	{
 				"$Position":	{
-					"$x":	972,
+					"$x":	976,
 					"$y":	3376
 				}
 			},
 			"Floor.Pattern-518fd0a4-171a-4517-8923-2c1e67897b8d":	{
 				"$Position":	{
-					"$x":	1695,
+					"$x":	1699,
 					"$y":	3374
 				}
 			},
 			"BlockSet.Pattern-68333a04-eb40-4dcc-aa91-639682abba19":	{
 				"$Position":	{
-					"$x":	2414,
+					"$x":	2418,
 					"$y":	2986
 				}
 			},
 			"BlockSet.BlockMask-a81e4918-1ee0-489e-ad3f-ee0e25b4e43c":	{
 				"$Position":	{
-					"$x":	3113,
+					"$x":	3117,
 					"$y":	2993
 				}
 			},
 			"Material-77e2e6aa-3e84-4d34-b291-2c06db4f31a1":	{
 				"$Position":	{
-					"$x":	3651,
+					"$x":	3655,
 					"$y":	2989
 				}
 			},
 			"BlockSet.Pattern-d24870ac-021d-4081-a53d-e539315be4ee":	{
 				"$Position":	{
-					"$x":	2447,
+					"$x":	2451,
 					"$y":	3433
 				}
 			},
 			"BlockSet.BlockMask-0196c860-49a4-429f-ac95-9a7a858ec742":	{
 				"$Position":	{
-					"$x":	3102,
+					"$x":	3106,
 					"$y":	3440
 				}
 			},
 			"Material-221acaa6-2de6-4c8c-9776-a2c1038ab4e5":	{
 				"$Position":	{
-					"$x":	3649,
+					"$x":	3653,
 					"$y":	3225
 				}
 			},
 			"Material-aa27a0e9-8f92-4be1-8871-6807cd2b8df8":	{
 				"$Position":	{
-					"$x":	3651,
+					"$x":	3655,
 					"$y":	3405
 				}
 			},
 			"ColumnLinear.Scanner-6c27717d-c0b0-4638-be28-9b8b11eec308":	{
 				"$Position":	{
-					"$x":	974,
+					"$x":	978,
 					"$y":	3546
 				}
 			},
@@ -1276,26 +1252,38 @@
 			},
 			"Weighted.Assignments-5aa01e6f-75ae-44b4-8fd1-0567859c2980":	{
 				"$Position":	{
-					"$x":	-758,
+					"$x":	-754,
 					"$y":	605
 				}
 			},
 			"WeightedPath.Prefab.Prop-8d34588d-9169-4108-9426-0115744d171e":	{
 				"$Position":	{
-					"$x":	1054,
-					"$y":	1446
+					"$x":	1040,
+					"$y":	-321
 				}
 			},
 			"WeightedPath.Prefab.Prop-201f2d9e-fa7c-49b5-a238-051c3aa9a7a7":	{
 				"$Position":	{
-					"$x":	1048,
-					"$y":	1617
+					"$x":	1035,
+					"$y":	-150
 				}
 			},
 			"WeightedPath.Prefab.Prop-024bfcb0-dbfd-4f84-ae97-45320d18ffba":	{
 				"$Position":	{
-					"$x":	1049,
-					"$y":	1770
+					"$x":	1036,
+					"$y":	2
+				}
+			},
+			"Random.Directionality-89f7c3b7-e587-4ad9-8835-f58745444f32":	{
+				"$Position":	{
+					"$x":	584,
+					"$y":	-1379
+				}
+			},
+			"Imported.Directionality-c4791e61-2b7a-4285-acc2-a2692831a2e8":	{
+				"$Position":	{
+					"$x":	715,
+					"$y":	-2257
 				}
 			}
 		},
@@ -1390,7 +1378,7 @@
 				"$name":	"Ferns"
 			}, {
 				"$Position":	{
-					"$x":	-2812.3125,
+					"$x":	-2808.5,
 					"$y":	-630.5
 				},
 				"$width":	9448.6875,
@@ -1398,27 +1386,27 @@
 				"$name":	"Medium Trees"
 			}, {
 				"$Position":	{
-					"$x":	971.5,
-					"$y":	568.8125
+					"$x":	980.25,
+					"$y":	298.375
 				},
 				"$width":	1068.3125,
 				"$height":	726.25,
 				"$name":	"Ponga"
 			}, {
 				"$Position":	{
-					"$x":	1001.3125,
-					"$y":	-488.9375
+					"$x":	1007.8125,
+					"$y":	1127.25
 				},
 				"$width":	1063.625,
 				"$height":	898.0625,
 				"$name":	"Mamaku"
 			}, {
 				"$Position":	{
-					"$x":	1010.3125,
-					"$y":	1377.125
+					"$x":	996.5625,
+					"$y":	-391
 				},
 				"$width":	1068.3125,
-				"$height":	726.25,
+				"$height":	587.25,
 				"$name":	"Rimu"
 			}],
 		"$Comments":	[],
