@@ -9,50 +9,43 @@
       "x": 0,
       "y": 0,
       "z": 0,
-      "name": "Te_Whenua_Wood_Mamaku_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Mamaku_Trunk"
     },
     {
       "x": 0,
       "y": 1,
       "z": 0,
-      "name": "Te_Whenua_Wood_Mamaku_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Mamaku_Trunk"
     },
     {
       "x": 0,
       "y": 2,
       "z": 0,
-      "name": "Te_Whenua_Wood_Mamaku_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Mamaku_Trunk"
     },
     {
       "x": 0,
       "y": 3,
       "z": 0,
-      "name": "Te_Whenua_Wood_Mamaku_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Mamaku_Trunk"
     },
     {
       "x": 0,
       "y": 4,
       "z": 0,
-      "name": "Te_Whenua_Wood_Mamaku_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Mamaku_Trunk"
     },
     {
       "x": 0,
       "y": 5,
       "z": 0,
-      "name": "Te_Whenua_Wood_Mamaku_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Mamaku_Trunk"
     },
     {
       "x": 0,
       "y": 6,
       "z": 0,
-      "name": "Te_Whenua_Plant_Mamaku_Leaves",
-      "support": 15
+      "name": "Te_Whenua_Plant_Mamaku_Leaves"
     }
   ],
   "fluids": [

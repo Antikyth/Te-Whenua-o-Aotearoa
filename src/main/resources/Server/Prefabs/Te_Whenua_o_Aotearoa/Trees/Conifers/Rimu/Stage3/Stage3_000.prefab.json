@@ -255,8 +255,7 @@
       "x": -3,
       "y": 24,
       "z": 2,
-      "name": "Te_Whenua_Plant_Rimu_Leaves",
-      "support": 15
+      "name": "Te_Whenua_Plant_Rimu_Leaves"
     },
     {
       "x": -3,
@@ -545,7 +544,6 @@
       "y": 19,
       "z": 1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 5
     },
     {
@@ -667,7 +665,6 @@
       "y": 24,
       "z": 2,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 5
     },
     {
@@ -1052,15 +1049,13 @@
       "x": -1,
       "y": 0,
       "z": 1,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": -1,
       "y": 1,
       "z": 1,
-      "name": "Te_Whenua_Wood_Rimu_Trunk_Full",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk_Full"
     },
     {
       "x": -1,
@@ -1085,7 +1080,6 @@
       "y": 19,
       "z": 1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 5
     },
     {
@@ -1141,7 +1135,6 @@
       "y": 28,
       "z": 1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 5
     },
     {
@@ -1178,15 +1171,13 @@
       "x": -1,
       "y": 0,
       "z": 2,
-      "name": "Te_Whenua_Wood_Rimu_Trunk_Full",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk_Full"
     },
     {
       "x": -1,
       "y": 17,
       "z": 2,
       "name": "Te_Whenua_Wood_Rimu_Branch_Short",
-      "support": 15,
       "rotation": 3
     },
     {
@@ -1230,7 +1221,6 @@
       "y": 24,
       "z": 2,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 5
     },
     {
@@ -1411,8 +1401,7 @@
       "x": 0,
       "y": 21,
       "z": -3,
-      "name": "Te_Whenua_Plant_Rimu_Leaves",
-      "support": 15
+      "name": "Te_Whenua_Plant_Rimu_Leaves"
     },
     {
       "x": 0,
@@ -1532,8 +1521,7 @@
       "x": 0,
       "y": 30,
       "z": -2,
-      "name": "Te_Whenua_Plant_Rimu_Leaves",
-      "support": 15
+      "name": "Te_Whenua_Plant_Rimu_Leaves"
     },
     {
       "x": 0,
@@ -1612,7 +1600,6 @@
       "y": 26,
       "z": -1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 4
     },
     {
@@ -1638,7 +1625,6 @@
       "y": 30,
       "z": -1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 4
     },
     {
@@ -1651,22 +1637,19 @@
       "x": 0,
       "y": 0,
       "z": 0,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 0,
       "y": 1,
       "z": 0,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 0,
       "y": 2,
       "z": 0,
-      "name": "Te_Whenua_Wood_Rimu_Trunk_Full",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk_Full"
     },
     {
       "x": 0,
@@ -1739,7 +1722,6 @@
       "y": 26,
       "z": 0,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 4
     },
     {
@@ -1765,7 +1747,6 @@
       "y": 30,
       "z": 0,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 4
     },
     {
@@ -1790,8 +1771,7 @@
       "x": 0,
       "y": 0,
       "z": 1,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 0,
@@ -1971,22 +1951,19 @@
       "x": 0,
       "y": 30,
       "z": 1,
-      "name": "Te_Whenua_Wood_Rimu_Trunk_Full",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk_Full"
     },
     {
       "x": 0,
       "y": 31,
       "z": 1,
-      "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Branch_Long"
     },
     {
       "x": 0,
       "y": 32,
       "z": 1,
-      "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Branch_Long"
     },
     {
       "x": 0,
@@ -2004,8 +1981,7 @@
       "x": 0,
       "y": 0,
       "z": 2,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 0,
@@ -2185,8 +2161,7 @@
       "x": 0,
       "y": 30,
       "z": 2,
-      "name": "Te_Whenua_Wood_Rimu_Trunk_Full",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk_Full"
     },
     {
       "x": 0,
@@ -2210,15 +2185,13 @@
       "x": 0,
       "y": 0,
       "z": 3,
-      "name": "Te_Whenua_Wood_Rimu_Trunk_Full",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk_Full"
     },
     {
       "x": 0,
       "y": 14,
       "z": 3,
-      "name": "Te_Whenua_Wood_Rimu_Branch_Short",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Branch_Short"
     },
     {
       "x": 0,
@@ -2254,8 +2227,7 @@
       "x": 0,
       "y": 23,
       "z": 3,
-      "name": "Te_Whenua_Wood_Rimu_Branch_Short",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Branch_Short"
     },
     {
       "x": 0,
@@ -2412,7 +2384,6 @@
       "y": 21,
       "z": -3,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 4
     },
     {
@@ -2462,7 +2433,6 @@
       "y": 21,
       "z": -2,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 4
     },
     {
@@ -2542,22 +2512,19 @@
       "y": 19,
       "z": -1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Corner",
-      "support": 15,
       "rotation": 2
     },
     {
       "x": 1,
       "y": 20,
       "z": -1,
-      "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Branch_Long"
     },
     {
       "x": 1,
       "y": 21,
       "z": -1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Corner",
-      "support": 15,
       "rotation": 10
     },
     {
@@ -2612,29 +2579,25 @@
       "x": 1,
       "y": 0,
       "z": 0,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 1,
       "y": 1,
       "z": 0,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 1,
       "y": 2,
       "z": 0,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 1,
       "y": 3,
       "z": 0,
-      "name": "Te_Whenua_Wood_Rimu_Trunk_Full",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk_Full"
     },
     {
       "x": 1,
@@ -2647,7 +2610,6 @@
       "y": 15,
       "z": 0,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 4
     },
     {
@@ -2667,7 +2629,6 @@
       "y": 18,
       "z": 0,
       "name": "Te_Whenua_Wood_Rimu_Branch_Corner",
-      "support": 15,
       "rotation": 2
     },
     {
@@ -2675,7 +2636,6 @@
       "y": 19,
       "z": 0,
       "name": "Te_Whenua_Wood_Rimu_Branch_Corner",
-      "support": 15,
       "rotation": 10
     },
     {
@@ -2760,8 +2720,7 @@
       "x": 1,
       "y": 0,
       "z": 1,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 1,
@@ -2941,8 +2900,7 @@
       "x": 1,
       "y": 30,
       "z": 1,
-      "name": "Te_Whenua_Wood_Rimu_Trunk_Full",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk_Full"
     },
     {
       "x": 1,
@@ -2966,8 +2924,7 @@
       "x": 1,
       "y": 0,
       "z": 2,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 1,
@@ -3147,8 +3104,7 @@
       "x": 1,
       "y": 30,
       "z": 2,
-      "name": "Te_Whenua_Wood_Rimu_Trunk_Full",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk_Full"
     },
     {
       "x": 1,
@@ -3166,22 +3122,19 @@
       "x": 1,
       "y": 0,
       "z": 3,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 1,
       "y": 1,
       "z": 3,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 1,
       "y": 2,
       "z": 3,
-      "name": "Te_Whenua_Wood_Rimu_Trunk_Full",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk_Full"
     },
     {
       "x": 1,
@@ -3212,7 +3165,6 @@
       "y": 19,
       "z": 3,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 4
     },
     {
@@ -3357,8 +3309,7 @@
       "x": 2,
       "y": 21,
       "z": -3,
-      "name": "Te_Whenua_Plant_Rimu_Leaves",
-      "support": 15
+      "name": "Te_Whenua_Plant_Rimu_Leaves"
     },
     {
       "x": 2,
@@ -3382,8 +3333,7 @@
       "x": 2,
       "y": 21,
       "z": -2,
-      "name": "Te_Whenua_Plant_Rimu_Leaves",
-      "support": 15
+      "name": "Te_Whenua_Plant_Rimu_Leaves"
     },
     {
       "x": 2,
@@ -3473,8 +3423,7 @@
       "x": 2,
       "y": 19,
       "z": 0,
-      "name": "Te_Whenua_Plant_Rimu_Leaves",
-      "support": 15
+      "name": "Te_Whenua_Plant_Rimu_Leaves"
     },
     {
       "x": 2,
@@ -3546,29 +3495,25 @@
       "x": 2,
       "y": 0,
       "z": 1,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 2,
       "y": 1,
       "z": 1,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 2,
       "y": 2,
       "z": 1,
-      "name": "Te_Whenua_Wood_Rimu_Trunk_Full",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk_Full"
     },
     {
       "x": 2,
       "y": 12,
       "z": 1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Short",
-      "support": 15,
       "rotation": 1
     },
     {
@@ -3588,7 +3533,6 @@
       "y": 16,
       "z": 1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 5
     },
     {
@@ -3608,7 +3552,6 @@
       "y": 19,
       "z": 1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 5
     },
     {
@@ -3652,7 +3595,6 @@
       "y": 26,
       "z": 1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 5
     },
     {
@@ -3678,7 +3620,6 @@
       "y": 30,
       "z": 1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 5
     },
     {
@@ -3697,15 +3638,13 @@
       "x": 2,
       "y": 0,
       "z": 2,
-      "name": "Te_Whenua_Wood_Rimu_Trunk",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk"
     },
     {
       "x": 2,
       "y": 1,
       "z": 2,
-      "name": "Te_Whenua_Wood_Rimu_Trunk_Full",
-      "support": 15
+      "name": "Te_Whenua_Wood_Rimu_Trunk_Full"
     },
     {
       "x": 2,
@@ -3748,7 +3687,6 @@
       "y": 21,
       "z": 2,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 5
     },
     {
@@ -4037,8 +3975,7 @@
       "x": 3,
       "y": 19,
       "z": 0,
-      "name": "Te_Whenua_Plant_Rimu_Leaves",
-      "support": 15
+      "name": "Te_Whenua_Plant_Rimu_Leaves"
     },
     {
       "x": 3,
@@ -4147,7 +4084,6 @@
       "y": 19,
       "z": 1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 5
     },
     {
@@ -4191,7 +4127,6 @@
       "y": 26,
       "z": 1,
       "name": "Te_Whenua_Wood_Rimu_Branch_Long",
-      "support": 15,
       "rotation": 5
     },
     {
