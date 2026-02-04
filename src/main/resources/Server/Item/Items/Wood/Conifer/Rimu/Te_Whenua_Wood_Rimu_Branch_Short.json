@@ -1,0 +1,17 @@
+{
+  "TranslationProperties": {
+    "Name": "te_whenua_o_aotearoa.items.Wood_Rimu_Branch_Short.name",
+    "Description": "te_whenua_o_aotearoa.items.Wood_Rimu_Branch_Short.description"
+  },
+  "Parent": "Wood_Oak_Branch_Short",
+  "Icon": "Icons/ItemsGenerated/Wood_Redwood_Branch_Short.png",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Structures/Tubes/Corner_Textures/Redwood.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#6b3820"
+  }
+}
