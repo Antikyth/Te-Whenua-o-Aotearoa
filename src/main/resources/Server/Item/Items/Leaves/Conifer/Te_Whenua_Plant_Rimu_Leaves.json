@@ -1,0 +1,32 @@
+{
+  "TranslationProperties": {
+    "Name": "te_whenua_o_aotearoa.items.Plant_Rimu_Leaves.name",
+    "Description": "te_whenua_o_aotearoa.items.Plant_Rimu_Leaves.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Te_Whenua_Plant_Rimu_Leaves.png",
+  "Parent": "Plant_Leaves_Oak",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Leaves/Conifer/Te_Whenua_Plant_Rimu_Leaves.png",
+        "Weight": 1
+      }
+    ],
+    "RandomRotation": "YawStep1",
+    "CustomModel": "Blocks/Foliage/Leaves/Hanging.blockymodel",
+    "ParticleColor": "#8eae1e",
+    "BlockParticleSetId": "Leaves_Fir"
+  },
+  "IconProperties": {
+    "Scale": 0.525,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -9
+    ]
+  }
+}

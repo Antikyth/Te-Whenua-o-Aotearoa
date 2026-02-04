@@ -1,0 +1,54 @@
+{
+  "TranslationProperties": {
+    "Name": "te_whenua_o_aotearoa.items.Plant_Fruit_Rimu_Fruit.name",
+    "Description": "te_whenua_o_aotearoa.items.Plant_Fruit_Rimu_Fruit.description"
+  },
+  "Quality": "Common",
+  "Icon": "Icons/ItemsGenerated/Plant_Fruit_Berries_Red.png",
+  "Parent": "Template_Fruit",
+  "BlockType": {
+    "CustomModel": "Resources/Plants/Wild_Berry.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Plants/Wild_Berry_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#ad6b47",
+    "HitboxType": "Plant_Small",
+    "CustomModelScale": 0.75
+  },
+  "InteractionVars": {
+    "Consume_Charge": {
+      "Interactions": [
+        {
+          "Parent": "Consume_Charge_Food_T1_Inner",
+          "Effects": {
+            "Particles": [
+              {
+                "SystemId": "Food_Eat",
+                "Color": "#C12B10",
+                "TargetNodeName": "Mouth",
+                "TargetEntityPart": "Entity"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 1.1,
+    "Rotation": [
+      0,
+      72.185,
+      29.435
+    ],
+    "Translation": [
+      1.9,
+      -3
+    ]
+  },
+  "Scale": 1,
+  "DropOnDeath": true
+}
