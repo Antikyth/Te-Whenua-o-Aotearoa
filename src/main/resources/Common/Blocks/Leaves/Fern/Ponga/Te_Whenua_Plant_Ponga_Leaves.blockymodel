@@ -132,7 +132,7 @@
                     "unwrapMode": "custom",
                     "visible": true,
                     "doubleSided": true,
-                    "shadingMode": "flat"
+                    "shadingMode": "standard"
                   }
                 }
               ]
@@ -180,7 +180,7 @@
                     "unwrapMode": "custom",
                     "visible": true,
                     "doubleSided": true,
-                    "shadingMode": "flat"
+                    "shadingMode": "standard"
                   }
                 }
               ]
@@ -228,7 +228,7 @@
                     "unwrapMode": "custom",
                     "visible": true,
                     "doubleSided": true,
-                    "shadingMode": "flat"
+                    "shadingMode": "standard"
                   }
                 }
               ]
@@ -276,7 +276,7 @@
                     "unwrapMode": "custom",
                     "visible": true,
                     "doubleSided": true,
-                    "shadingMode": "flat"
+                    "shadingMode": "standard"
                   }
                 }
               ]
