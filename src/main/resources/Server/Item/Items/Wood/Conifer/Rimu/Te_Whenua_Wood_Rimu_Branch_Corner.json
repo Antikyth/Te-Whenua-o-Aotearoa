@@ -13,5 +13,10 @@
       }
     ],
     "ParticleColor": "#6b3820"
+  },
+  "Tags": {
+    "Family": [
+      "Rimu"
+    ]
   }
 }

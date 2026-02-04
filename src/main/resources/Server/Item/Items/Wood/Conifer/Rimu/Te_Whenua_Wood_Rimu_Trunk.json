@@ -40,5 +40,10 @@
     {
       "Id": "Charcoal"
     }
-  ]
+  ],
+  "Tags": {
+    "Family": [
+      "Rimu"
+    ]
+  }
 }
