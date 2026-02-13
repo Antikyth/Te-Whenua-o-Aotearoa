@@ -3,7 +3,7 @@ npcRoles.Kaakaapoo.name = Kākāpō
 
 # ===== Fruit =====
 items.Plant_Fruit_Rimu_Fruit.name = Rimu Fruit
-items.Plant_Fruit_Rimu_Fruit.description = Fruit of the <color is="#ffffff">rimu tree</color>, which forms an important part of the <color is="#ffffff">Kaakaapoo</color> diet and breeding cycle.
+items.Plant_Fruit_Rimu_Fruit.description = Fruit of the <color is="#ffffff">rimu tree</color>, which forms an important part of the <color is="#ffffff">Kākāpō</color> diet and breeding cycle.
 
 # ===== Trees =====
 
@@ -24,7 +24,7 @@ items.Wood_Ponga_Trunk.description = The trunk of a <color is="#ffffff">ponga tr
 # == Rimu ==
 # Leaves
 items.Plant_Rimu_Leaves.name = Rimu Leaves
-items.Plant_Rimu_Leaves.description = Bearer of <item is="Te_Whenua_Plant_Fruit_Rimu_Fruit"/>, an important fruit in <color is="#ffffff">Kaakaapoo</color>'s (macrons won't render correctly) diets and breeding cycles.
+items.Plant_Rimu_Leaves.description = Bearer of <item is="Te_Whenua_Plant_Fruit_Rimu_Fruit"/>, an important fruit in <color is="#ffffff">Kākāpō</color>'s diets and breeding cycles.
 # Log
 items.Wood_Rimu_Trunk.name = Rimu Log
 items.Wood_Rimu_Trunk.description = [TMP] Hardwood
