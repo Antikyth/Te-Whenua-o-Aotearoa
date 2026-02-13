@@ -1,5 +1,11 @@
+# Flatten the folder hierarchy on Crowdin for ease-of-use.
+# Exported language files will still use the correct hierarchy.
+preserve_hierarchy: false
+
 files:
   - source: /src/main/resources/Server/Languages/en-US/*.lang
     translation: /src/main/resources/Server/Languages/%locale%/%original_file_name%
-    update_option: update_as_unapproved
+    # Treat Hytale `.lang` files as Java `.properties` files.
     type: properties
+    # When source strings are modified, disapprove any approved translations of that string.
+    update_option: update_as_unapproved
