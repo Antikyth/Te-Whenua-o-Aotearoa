@@ -2,38 +2,38 @@
 npcRoles.Kaakaapoo.name = Kākāpō
 
 # ===== Fruit =====
-items.Plant_Fruit_Rimu_Fruit.name = Rimu Fruit
-items.Plant_Fruit_Rimu_Fruit.description = Fruit of the <color is="#ffffff">rimu tree</color>, which forms an important part of the <color is="#ffffff">Kākāpō</color> diet and breeding cycle.
+items.Plant_Fruit_Rimu_Fruit.name = Fruta de Rimu
+items.Plant_Fruit_Rimu_Fruit.description = Fruta da <color is="#ffffff">árvore de rimu</color>, essa fruta é uma parte importante da dieta e do ciclo de acasalamento dos <color is="#ffffff">kākāpō</color>.
 
 # ===== Trees =====
 
 # == Mamaku ==
 # Leaves
-items.Plant_Mamaku_Leaves.name = Mamaku Leaves
+items.Plant_Mamaku_Leaves.name = Folhas de Mamaku
 # Trunk
-items.Wood_Mamaku_Trunk.name = Mamaku Trunk
+items.Wood_Mamaku_Trunk.name = Tronco de Mamaku
 
 # == Ponga ==
 # Leaves
-items.Plant_Ponga_Leaves.name = Ponga Leaves
-items.Plant_Ponga_Leaves.description = The leaves of a <color is="#ffffff">ponga tree</color>, a type of fern tree known for the distinctive reflective silver underside of its leaves. Its silver ferns are often used to represent Aotearoa New Zealand.
+items.Plant_Ponga_Leaves.name = Folhas de Ponga
+items.Plant_Ponga_Leaves.description = As folhas de uma <color is="#ffffff">árvore ponga</color>, também conhecida como samambaia-de-prata, carrega esse nome devido à parte inferior brilhante, de cor prateada, de suas folhas. Essas samambaias prateadas são frequentemente utilizadas para representar Aotearoa, Nova Zelândia.
 # Trunk
-items.Wood_Ponga_Trunk.name = Ponga Trunk
-items.Wood_Ponga_Trunk.description = The trunk of a <color is="#ffffff">ponga tree</color>, a type of fern tree known for the distinctive reflective silver underside of its leaves. Its silver ferns are often used to represent Aotearoa New Zealand.
+items.Wood_Ponga_Trunk.name = Tronco de Ponga
+items.Wood_Ponga_Trunk.description = Os troncos de uma <color is="#ffffff">árvore ponga</color>, também conhecida como samambaia-de-prata, carrega esse nome devido à parte inferior brilhante, de cor prateada, de suas folhas. Essas samambaias prateadas são bastante utilizadas para representar Aotearoa, Nova Zelândia.
 
 # == Rimu ==
 # Leaves
-items.Plant_Rimu_Leaves.name = Rimu Leaves
-items.Plant_Rimu_Leaves.description = Bearer of <item is="Te_Whenua_Plant_Fruit_Rimu_Fruit"/>, an important fruit in <color is="#ffffff">Kākāpō</color>'s diets and breeding cycles.
+items.Plant_Rimu_Leaves.name = Folhas de Rimu
+items.Plant_Rimu_Leaves.description = Portadoras da <item is="Te_Whenua_Plant_Fruit_Rimu_Fruit"/>, uma fruta importante nas dietas e ciclos de acasalamento dos <color is="#ffffff">kākāpō</color>.
 # Log
-items.Wood_Rimu_Trunk.name = Rimu Log
-items.Wood_Rimu_Trunk.description = [TMP] Hardwood
+items.Wood_Rimu_Trunk.name = Toras de Rimu
+items.Wood_Rimu_Trunk.description = [TMP] Madeira Dura
 # Trunk
-items.Wood_Rimu_Trunk_Full.name = Rimu Tree Trunk
-items.Wood_Rimu_Trunk_Full.description = [TMP] Hardwood
+items.Wood_Rimu_Trunk_Full.name = Tronco de Árvore de Rimu
+items.Wood_Rimu_Trunk_Full.description = [TMP] Madeira Dura
 # Branch - Short
-items.Wood_Rimu_Branch_Short.name = Rimu Branch - Short
+items.Wood_Rimu_Branch_Short.name = Galho de Rimu — Curto
 # Branch - Long
-items.Wood_Rimu_Branch_Long.name = Rimu Branch - Long
+items.Wood_Rimu_Branch_Long.name = Galho de Rimu — Longo
 # Branch - Corner
-items.Wood_Rimu_Branch_Corner.name = Rimu Branch - Corner
+items.Wood_Rimu_Branch_Corner.name = Galho de Rimu — Canto
