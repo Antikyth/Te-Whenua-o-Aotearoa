@@ -1,0 +1,39 @@
+# ===== NPCs =====
+npcRoles.Kaakaapoo.name = Kākāpō
+
+# ===== Fruit =====
+items.Plant_Fruit_Rimu_Fruit.name = Rimu Fruit
+items.Plant_Fruit_Rimu_Fruit.description = Fruit of the <color is="#ffffff">rimu tree</color>, which forms an important part of the <color is="#ffffff">Kākāpō</color> diet and breeding cycle.
+
+# ===== Trees =====
+
+# == Mamaku ==
+# Leaves
+items.Plant_Mamaku_Leaves.name = Mamaku Leaves
+# Trunk
+items.Wood_Mamaku_Trunk.name = Mamaku Trunk
+
+# == Ponga ==
+# Leaves
+items.Plant_Ponga_Leaves.name = Ponga Leaves
+items.Plant_Ponga_Leaves.description = The leaves of a <color is="#ffffff">ponga tree</color>, a type of fern tree known for the distinctive reflective silver underside of its leaves. Its silver ferns are often used to represent Aotearoa New Zealand.
+# Trunk
+items.Wood_Ponga_Trunk.name = Ponga Trunk
+items.Wood_Ponga_Trunk.description = The trunk of a <color is="#ffffff">ponga tree</color>, a type of fern tree known for the distinctive reflective silver underside of its leaves. Its silver ferns are often used to represent Aotearoa New Zealand.
+
+# == Rimu ==
+# Leaves
+items.Plant_Rimu_Leaves.name = Rimu Leaves
+items.Plant_Rimu_Leaves.description = Bearer of <item is="Te_Whenua_Plant_Fruit_Rimu_Fruit"/>, an important fruit in <color is="#ffffff">Kākāpō</color>'s diets and breeding cycles.
+# Log
+items.Wood_Rimu_Trunk.name = Rimu Log
+items.Wood_Rimu_Trunk.description = [TMP] Hardwood
+# Trunk
+items.Wood_Rimu_Trunk_Full.name = Rimu Tree Trunk
+items.Wood_Rimu_Trunk_Full.description = [TMP] Hardwood
+# Branch - Short
+items.Wood_Rimu_Branch_Short.name = Rimu Branch - Short
+# Branch - Long
+items.Wood_Rimu_Branch_Long.name = Rimu Branch - Long
+# Branch - Corner
+items.Wood_Rimu_Branch_Corner.name = Rimu Branch - Corner
