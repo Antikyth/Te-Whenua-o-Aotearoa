@@ -1,39 +1,39 @@
 # ===== NPCs =====
-npcRoles.Kaakaapoo.name = Kākāpō
+npcRoles.Kaakaapoo.name = Kākāpō (какапо)
 
 # ===== Fruit =====
-items.Plant_Fruit_Rimu_Fruit.name = Rimu Fruit
-items.Plant_Fruit_Rimu_Fruit.description = Fruit of the <color is="#ffffff">rimu tree</color>, which forms an important part of the <color is="#ffffff">Kākāpō</color> diet and breeding cycle.
+items.Plant_Fruit_Rimu_Fruit.name = Фрукт Риму
+items.Plant_Fruit_Rimu_Fruit.description = Фрукт <color is="#ffffff">дерева Rimu (Риму)</color>, которые составляют важную часть рациона и цикла размножения <color is="#ffffff">Kākāpō (Какапо)</color>.
 
 # ===== Trees =====
 
 # == Mamaku ==
 # Leaves
-items.Plant_Mamaku_Leaves.name = Mamaku Leaves
+items.Plant_Mamaku_Leaves.name = Листья Mamaku (Мамаку)
 # Trunk
-items.Wood_Mamaku_Trunk.name = Mamaku Trunk
+items.Wood_Mamaku_Trunk.name = Ствол Mamaku (Мамаку)
 
 # == Ponga ==
 # Leaves
-items.Plant_Ponga_Leaves.name = Ponga Leaves
-items.Plant_Ponga_Leaves.description = The leaves of a <color is="#ffffff">ponga tree</color>, a type of fern tree known for the distinctive reflective silver underside of its leaves. Its silver ferns are often used to represent Aotearoa New Zealand.
+items.Plant_Ponga_Leaves.name = Листья Ponga (Понги)
+items.Plant_Ponga_Leaves.description = Листья дерева <color is="#ffffff">ponga (понга)</color> - разновидности древовидного папоротника, известного характерной серебристой изнанкой листьев. Эти серебряные папоротники часто используются как символ Aotearoa New Zealand (Аотеаро, Новая Зеландия).
 # Trunk
-items.Wood_Ponga_Trunk.name = Ponga Trunk
-items.Wood_Ponga_Trunk.description = The trunk of a <color is="#ffffff">ponga tree</color>, a type of fern tree known for the distinctive reflective silver underside of its leaves. Its silver ferns are often used to represent Aotearoa New Zealand.
+items.Wood_Ponga_Trunk.name = Ствол Ponga (Понги)
+items.Wood_Ponga_Trunk.description = Ствол дерева <color is="#ffffff">ponga (понга)</color> - разновидности древовидного папоротника, известного характерной серебристой изнанкой листьев. Эти серебряные папоротники часто используются как символ Aotearoa New Zealand (Аотеаро, Новая Зеландия).
 
 # == Rimu ==
 # Leaves
-items.Plant_Rimu_Leaves.name = Rimu Leaves
-items.Plant_Rimu_Leaves.description = Bearer of <item is="Te_Whenua_Plant_Fruit_Rimu_Fruit"/>, an important fruit in <color is="#ffffff">Kākāpō</color>'s diets and breeding cycles.
+items.Plant_Rimu_Leaves.name = Листья Rimu (Риму)
+items.Plant_Rimu_Leaves.description = Носитель плода <item is="Te_Whenua_Plant_Fruit_Rimu_Fruit"/>, важного фрукта в рационе и циклах размножения <color is="#ffffff">Kākāpō (какапо)</color>.
 # Log
-items.Wood_Rimu_Trunk.name = Rimu Log
-items.Wood_Rimu_Trunk.description = [TMP] Hardwood
+items.Wood_Rimu_Trunk.name = Бревно Rimu (Риму)
+items.Wood_Rimu_Trunk.description = [TMP] Твердая древесина
 # Trunk
-items.Wood_Rimu_Trunk_Full.name = Rimu Tree Trunk
-items.Wood_Rimu_Trunk_Full.description = [TMP] Hardwood
+items.Wood_Rimu_Trunk_Full.name = Ствол дерева Rimu (Риму)
+items.Wood_Rimu_Trunk_Full.description = [TMP] Твердая древесина
 # Branch - Short
-items.Wood_Rimu_Branch_Short.name = Rimu Branch - Short
+items.Wood_Rimu_Branch_Short.name = Короткая ветка Rimu (Риму)
 # Branch - Long
-items.Wood_Rimu_Branch_Long.name = Rimu Branch - Long
+items.Wood_Rimu_Branch_Long.name = Длинная ветка Rimu (Риму)
 # Branch - Corner
-items.Wood_Rimu_Branch_Corner.name = Rimu Branch - Corner
+items.Wood_Rimu_Branch_Corner.name = Угол ветки Rimu (Риму)
