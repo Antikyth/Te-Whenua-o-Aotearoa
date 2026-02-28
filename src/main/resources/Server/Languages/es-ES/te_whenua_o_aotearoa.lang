@@ -29,7 +29,7 @@ items.Plant_Rimu_Leaves.description = Portadoras del <item is="Te_Whenua_Plant_F
 items.Wood_Rimu_Trunk.name = Rimu Log
 items.Wood_Rimu_Trunk.description = [TMP] Madera Dura
 # Trunk
-items.Wood_Rimu_Trunk_Full.name = Rimu Tree Trunk
+items.Wood_Rimu_Trunk_Full.name = Tronco de Árbol de Rimu
 items.Wood_Rimu_Trunk_Full.description = [TMP] Madera Dura
 # Branch - Short
 items.Wood_Rimu_Branch_Short.name = Rama de Rimu - Corta
